@@ -1,0 +1,58 @@
+header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  border-bottom: 1px solid gray;
+  color: black;
+}
+
+.top-title{
+  margin-top: 100px;
+}
+
+.top-wrapper{
+  display: flex;
+  justify-content: center;
+
+
+  margin-bottom: 40px;
+}
+
+.top-wrapper img{
+  width: 240px;
+  height: auto;
+  margin-right: 30px;
+}
+
+.top-text{
+  margin-left: 30px;
+}
+
+.title-style{
+  border-bottom: 2px solid #E8E8E8;
+  margin-bottom: 30px;
+}
+
+.topic{
+  margin-bottom: 70px;
+}
+
+    .nav-link.active {
+      background-color: gray !important;
+      color: white !important;
+    }
+
+.site-title {
+  margin: 0;
+}
+
+.nav-link.active{
+  border-radius: 0.5rem;
+}
+
+.header-items{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

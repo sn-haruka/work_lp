@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+    <link rel="stylesheet" href="index2style.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <title>BootStrap Sample</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="100" tabindex="0">
+
+  <header class=" bg-light">
+    <nav class="navbar navbar-expand-md navbar-light container">
+      <div class="container-fluid header-items">
+
+        <div class="row w-100 align-items-center justify-content-space-between">
+          <!-- ブランドロゴ -->
+          <div class="col-4 col-md-3">
+            <a class="navbar-brand" href="#">My<br>Profile</a>
+          </div>
+          <!-- タイトル -->
+          <div class="col-6 col-md-6">
+            <p class="text-center">はるかについて<br>よく知るためのさいと</p>
+          </div>
+          <!-- 折りたたみレイアウト -->
+          <div class="col-2 col-md-3">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- 折りたたまれるメニュー部分 -->
+            <div class="collapse navbar-collapse" id="navbarMenu">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#hobby">Hobby</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#activity">Studying</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+
+    <div class="topic container">
+      <h4 id="about" class="top-title title-style text-center">About Me</h4>
+      <div class="top-wrapper">
+        <img src="./img/profile_img1.png" alt="profile_img1">
+        <div class="top-text">
+          <h2>はるか</h2>
+          <ul>
+            <li>Lv.23</li>
+            <li>福岡在住</li>
+            <li>社会人1年目（研修中）</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container topic">
+      <h4 id="hobby" class="title-style text-center">Hobby</h4>
+      <div class="row">
+        <div class="col-12 col-md-6 mb-2 mb-md-0 d-flex justify-content-center align-items-center">
+          <!-- カード -->
+          <div class="card" style="width: 20rem;">
+            <div class="card-body">
+              <h5 class="card-title text-center">編み物</h5>
+              <p class="card-text">小学校2年生頃に、友達のお母さんに教えてもらったことがきっかけで、気が向いたら編み物してます。<br>かぎ針編みも棒針編みも一応できますが、かぎ針編みの方が得意です。<br>あまり大きいものを編むことは少なく、Youtubeでデザインが気に入ったコースターや小さなあみぐるみを編むことが多いです。</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+          <!-- カード -->
+          <div class="card" style="width: 20rem; min-height: 300px">
+            <div class="card-body">
+              <h5 class="card-title text-center">ドラゴンクエスト</h5>
+              <div class="d-flex justify-content-center align-items-center">
+                <p class="card-text">ゲームが好きです、とお話しすることが多いですがよく考えたらドラゴンクエスト以外のゲームをそんなにやることないなあと気づき、ドラゴンクエストと書くことにしました。<br>ドラゴンクエストは小学校一年生くらいから始めました。<br>今はドラゴンクエスト3のHD-2D版をプレイしています。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="topic container">
+      <h4 id="activity" class="title-style text-center">Studying</h4>
+      <div class="row">
+        <div class="col-12 col-md-4 mb-2 mb-md-0 d-flex justify-content-center align-items-center">
+          <!-- カード -->
+          <div class="card h-30" style="width: 20rem; min-height: 300px;">
+            <div class="card-body">
+              <h5 class="card-title text-center">AWS</h5>
+              <div class="d-flex justify-content-center align-items-center">
+              <p class="card-text">どんな部署に配属されてもAWSは触ることになるだろうと先輩からアドバイスを受け、焦って参考書を読み進めています。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mb-2 mb-md-0 d-flex justify-content-center align-items-center">
+          <!-- カード -->
+          <div class="card" style="width: 20rem; min-height: 300px;">
+            <div class="card-body">
+              <h5 class="card-title text-center">仕様書の書き方、読み方</h5>
+              <p class="card-text">先輩方から、部署配属されて一番最初にすることは仕様書を読んでコードを理解することであるとお聞きしました。<br>そのため仕様書がどんな視点で作られているのか学ぶために仕様書の書き方も勉強したいと思っています</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 d-flex justify-content-center align-items-center">
+          <!-- カード -->
+          <div class="card" style="width: 20rem; min-height: 300px;">
+            <div class="card-body">
+              <h5 class="card-title text-center">データベース設計</h5>
+              <p class="card-text">sqlを使いこなせるようになるのはもちろんなのですが、システムの機能を実現するためのデータベースの設計が非常に重要だと、会社の研修を受ける中で感じています。<br>そのため、今すぐというわけではないですがいつか必ずDB設計についてまとめてインプットしなければならないと感じています。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+</body>
+</html>
